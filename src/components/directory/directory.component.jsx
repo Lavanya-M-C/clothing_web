@@ -8,7 +8,6 @@ class Directory extends React.Component {
     constructor(){
 
         super();
-
         this.state = {
             sections: [
                 {
@@ -52,7 +51,7 @@ class Directory extends React.Component {
             <div className='directory-menu'>
                 {this.state.sections.map( ({id, ...otherSectionProps}) => (
                     <MenuItem key={id} {...otherSectionProps} />
-                ) )}
+                ))}
             </div>
         );
     }
