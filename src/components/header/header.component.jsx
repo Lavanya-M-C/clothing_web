@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 
 const Header = ({currentUser}) => (
     <div className='header'>
-        <Link className='logo-container' to='/'>
+        <Link className='logo-container' to='/clothing-web'>
             <Logo className='logo' />
         </Link>
         <div className='options'>
